@@ -10,40 +10,40 @@
       <div class="second-header__content">
         <div class="top-menu">
           <img src="./img/top-menu__img.png" alt="top-menu" class="top-menu__img" width="" height="">
-          <div class="top-menu__btn"></div>
+          <button class="top-menu__btn"></button>
           <ul class="main-menu" style="display:none">
             <li class="main-menu__item"><a href="catalog.html" class="main-menu__link">Каталог товаров</a></li>
             <li class="main-menu__item"><a href="form.html" class="main-menu__link">Вязание на заказ</a></li>
-            <li class="main-menu__item">Поиск по сайту</li>
-            <li class="main-menu__item">Корзина: пока пуста</li>
+            <li class="main-menu__item"><a href="#" class="main-menu__link">Поиск по сайту</a></li>
+            <li class="main-menu__item"><a href="#" class="main-menu__link">Корзина: пока пуста</a></li>
           </ul>
         </div>
       </div>
     </header>
-    <content>
+    <div class="content">
       <div class="name-page">
-        <div class="name-page__content">
-          <h1 class="name-page__tagline">Каталог товаров</h1>
+        <div class="name-page__tagline">
+          <h1 class="name-page__title">Каталог товаров</h1>
         </div>
       </div>
       <div class="catalog">
         <div class="product__content">
           <article class="product">
-            <img src="./img/hare.png" alt="hare" class="product__img">
+            <img src="./img/hare.png" alt="hare" class="product__img" width="" height="">
             <h2 class="product__name">Зайчик-попрыгайчик</h2>
             <p class="product__description">Рост 30 см, вес 200 г</p>
             <p class="product__price">1 200 руб.</p>
             <div class="product__btn"></div>
           </article>
           <article class="product">
-            <img src="./img/basket.png" alt="basket" class="product__img">
+            <img src="./img/basket.png" alt="basket" class="product__img" width="" height="">
             <h2 class="product__name">Корзинка для белья</h2>
             <p class="product__description">Диаметр 15 см, высота 10 см</p>
             <p class="product__price">690 руб.</p>
             <div class="product__btn"></div>
           </article>
           <article class="product">
-            <img src="./img/basket-bog.png" alt="basket-bog" class="product__img">
+            <img src="./img/basket-bog.png" alt="basket-bog" class="product__img" width="" height="">
             <h2 class="product__name">Большая корзинка для игрушек</h2>
             <p class="product__description">Диаметр 30 см, высота 30 см</p>
             <p class="product__price">1 500 руб.</p>
@@ -56,10 +56,10 @@
           <h2 class="making__tagline">Процесс производства</h2>
           <div class="making__video"></div>
           <p class="making__text">По просьбам наших любимых фолловеров мы сняли для вас подробное видео о том, как появляются наши товары.</p>
-          <div class="making__btn">СДелать заказ</div>
+          <div class="making__btn">Сделать заказ</div>
         </div>
       </div>
-    </content>
+    </div>
     <footer class="main-footer">
       <div class="main-footer__content">
         <div class="social-networks">
@@ -72,19 +72,21 @@
     </footer>
   </div>
   <div class="hidden-widow" style="display:none">
-    <p class="hidden-widow__tigline">Добавить в корзину</p>
-    <p class="hidden-widow__text">Выберите размер:</p>
-    <div class="hidden-widow__block-input">
-      <input type="radio" id="s" class="hidden-widow__input">
-      <input type="radio" id="m" class="hidden-widow__input">
-      <input type="radio" id="l" class="hidden-widow__input">
-    </div>
-    <div class="hidden-widow__block-label">
-      <label for="s" class="hidden-widow__label">s</label>
-      <label for="m" class="hidden-widow__label">m</label>
-      <label for="l" class="hidden-widow__label">l</label>
-    </div>
-    <div class="hidden-widow__btn">Добавить</div>
+    <form action="" class="hidden-widow__form">
+      <p class="hidden-widow__tigline">Добавить в корзину</p>
+      <p class="hidden-widow__text">Выберите размер:</p>
+      <div class="hidden-widow__block-input">
+        <input type="radio" id="s" class="hidden-widow__input">
+        <input type="radio" id="m" class="hidden-widow__input">
+        <input type="radio" id="l" class="hidden-widow__input">
+      </div>
+      <div class="hidden-widow__block-label">
+        <label for="s" class="hidden-widow__label">s</label>
+        <label for="m" class="hidden-widow__label">m</label>
+        <label for="l" class="hidden-widow__label">l</label>
+      </div>
+      <div class="hidden-widow__btn">Добавить</div>
+    </form>
   </div>
 </body>
 </html>
