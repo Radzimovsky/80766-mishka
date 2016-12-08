@@ -5,8 +5,123 @@
     <title>HTML Academy: Мишка</title>
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">Продвинутый HTML и CSS</a>».</p>
-
+    <div class="wrapper">
+      <header class="main-header">
+        <div class="main-header__content">
+          <div class="top-menu">
+            <img src="./img/top-menu__img.png" alt="top-menu" class="top-menu__img" width="" height="">
+            <button class="top-menu__btn"></button>
+            <ul class="main-menu" style="display:none">
+              <li class="main-menu__item"><a href="catalog.html" class="main-menu__link">Каталог товаров</a></li>
+              <li class="main-menu__item"><a href="form.html" class="main-menu__link">Вязание на заказ</a></li>
+              <li class="main-menu__item"><a href="#" class="main-menu__link">Поиск по сайту</a></li>
+              <li class="main-menu__item"><a href="#" class="main-menu__link">Корзина: пока пуста</a></li>
+            </ul>
+          </div>
+          <div class="main-header__tagline">
+            <h1 class="main-header__title">Милые штуки ручной работы для дома</h1>
+          </div>
+          <ul class="main-navigation">
+            <li class="main-navigation__list"><a href="#" class="main-navigation__link main-navigation__link--light">Предметы интерьера</a></li>
+            <li class="main-navigation__list"><a href="#" class="main-navigation__link main-navigation__link--dark">Детские игрушки</a></li>
+          </ul>
+        </div>
+      </header>
+      <div class="content">
+        <div class="best-product">
+          <div class="best-product__content">
+            <h2 class="best-product__tagline">Вязаные корзинки</h2>
+            <p class="best-product__marker">Товар недели</p>
+            <p class="best-product__description">Экологически чистая пряжа, ручная работа. Доступны в шести расцветках, и трех размерах.</p>
+            <table class="best-product__table">
+              <tr>
+                <td class="best-product__characteristic">Цвет</td>
+                <td class="best-product__characteristic-answer">«Тиффани»/серый</td>
+              </tr>
+              <tr>
+                <td class="best-product__characteristic">Диаметр:</td>
+                <td class="best-product__characteristic-answer">25 см</td>
+              </tr>
+              <tr>
+                <td class="best-product__characteristic">Высота:</td>
+                <td class="best-product__characteristic-answer">15 см</td>
+              </tr>
+            </table>
+            <img src="./img/best-product.png" alt="" class="best-product__img"  width="" height="">
+            <p class="best-product__price">Цена: 990 руб.</p>
+            <a href="#" class="best-product__btn">Заказать</a>
+          </div>
+        </div>
+        <div class="about-us">
+          <div class="about-us__content">
+            <h2 class="about-us__tagline">Коротко о нас:</h2>
+            <p class="about-us__text about-us__text--flower">Экологически чистые материалы</p>
+            <p class="about-us__text about-us__text--money">Скандинавский стиль по российской цене</p>
+            <p class="about-us__text about-us__text--heart">Увеличивает лайки на фотографиях</p>
+            <p class="about-us__text about-us__text--clew">Связано вручную с любовью и умилением</p>
+            <p class="about-us__text about-us__text--rocket">Поддержка отечественного производителя</p>
+            <p class="about-us__text about-us__text--packaging">Поставляется в подарочной упаковке</p>
+          </div>
+        </div>
+        <div class="reviews">
+          <div class="reviews__content">
+            <h2 class="reviews__tigline">Отзывы</h2>
+            <div class="reviews__block-review">
+              <blockquote class="reviews__quote">Я молодая мама, но всё равно фотографии не набирали и близко такого количества лайков, как у популярных инстамамочек. В отчаянии, я накупила аксессуаров и игрушек в Мишке, и мои фотографии сразу стали более стильными, а также набирают больше лайков!</blockquote>
+              <cite class="reviews__author">Анастасия Красильникова<span class="reviews__nickname">@misssssiskras</span></cite>
+            </div>
+            <div class="reviews__control_btns">
+              <div class="reviews__control_btn reviews__control_btn--left"></div>
+              <div class="reviews__control_btn reviews__control_btn--right"></div>
+            </div>
+            <div class="reviews__feedback">Написать</div>
+          </div>
+        </div>
+        <div class="contacts">
+          <div class="contacts__content">
+            <h2 class="contacts__tigline">Контакты</h2>
+            <div class="contacts__block-info">
+              <p class="contacts__info">e-mail:</p>
+              <p class="contacts__info-answer"><a href="mailto:info@mimimishkashop.ru" class="contacts__mail">info@mimimishkashop.ru</a></p>
+              <p class="contacts__info">адрес:</p>
+              <p class="contacts__info-answer">г. Санкт-Петербург, ул. Большая Конюшенная, д. 19/8, офис 101</p>
+            </div>
+            <div class="contacts__map"></div>
+          </div>
+        </div>
+        <div class="feedback">
+          <div class="feedback__content">
+            <a href="#" class="feedback__btn">Напишите нам</a>
+          </div>
+        </div>
+      </div>
+      <footer class="main-footer">
+        <div class="main-footer__content">
+          <div class="social-networks">
+            <a href="https://www.instagram.com/" class="social-networks__link social-networks__link--ig"></a>
+            <a href="https://www.facebook.com/" class="social-networks__link social-networks__link--fb"></a>
+            <a href="https://twitter.com/" class="social-networks__link social-networks__link--tw"></a>
+          </div>
+          <a href="https://htmlacademy.ru/" class="main-footer__designed">Разработано</a>
+        </div>
+      </footer>
+    </div>
+    <div class="hidden-widow" style="display:none">
+      <form action="" class="hidden-widow__form">
+        <p class="hidden-widow__tigline">Добавить в корзину</p>
+        <p class="hidden-widow__text">Выберите размер:</p>
+        <div class="hidden-widow__block-input">
+          <input type="radio" id="s" class="hidden-widow__input">
+          <input type="radio" id="m" class="hidden-widow__input">
+          <input type="radio" id="l" class="hidden-widow__input">
+        </div>
+        <div class="hidden-widow__block-label">
+          <label for="s" class="hidden-widow__label">s</label>
+          <label for="m" class="hidden-widow__label">m</label>
+          <label for="l" class="hidden-widow__label">l</label>
+        </div>
+        <button class="hidden-widow__btn">Добавить</button>
+      </form>
+    </div>
   </body>
 </html>
