@@ -1,0 +1,42 @@
+.about-us {
+  background-color: #ffffff;
+}
+.about-us__content {
+  padding: 35px 30px;
+}
+.about-us__tagline {
+  margin: 0;
+  font-size: 25px;
+  line-height: 30px;
+  color: #000000;
+  font-weight: bold;
+  font-family: "Оpen sans";
+}
+.about-us__text {
+  padding-top: 90px;
+  font-size: 17px;
+  line-height: 20px;
+  color: #000000;
+  font-weight: bold;
+  font-family: "Оpen sans";
+  background-repeat: no-repeat;
+  background-position: top left;
+    &--flower {
+      background-image: url(../img/icon-feature-1.svg);
+    }
+    &--money {
+      background-image: url(../img/icon-feature-2.svg);
+    }
+    &--heart {
+      background-image: url(../img/icon-feature-3.svg);
+    }
+    &--clew {
+      background-image: url(../img/icon-feature-4.svg);
+    }
+    &--rocket {
+      background-image: url(../img/icon-feature-5.svg);
+    }
+    &--packaging {
+      background-image: url(../img/icon-feature-6.svg);
+    }
+}

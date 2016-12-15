@@ -1,0 +1,16 @@
+.top-menu {
+  padding: 0 30px;
+  box-sizing: border-box;
+  height: 79px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #ececec;
+}
+.top-menu__btn {
+  padding: 0;
+  width: 20px;
+  height: 14px;
+  background-image: url(../img/icon-menu-open.svg);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+}

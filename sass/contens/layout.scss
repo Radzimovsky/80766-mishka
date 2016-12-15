@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  background-color: grey;
+
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 320px;
+
+}
+.content {
+
+}
+
+@font-face {
+  font-family: "Оpen sans";
+  src: url(../fonts/opensans.woff) format("woff"),
+  url(../fonts/opensans.woff2) format("woff2");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Оpen sans bold";
+  src: url(../fonts/opensansbold.woff) format("woff"),
+  url(../fonts/opensansbold.woff2) format("woff2");
+  font-style: normal;
+  font-weight: bold;
+}

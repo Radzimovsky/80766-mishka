@@ -1,0 +1,23 @@
+.social-networks {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  width: 150px;
+}
+.social-networks__link {
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+    &--ig {
+      background-image: url(../img/icon-insta.svg);
+    }
+    &--fb {
+      background-image: url(../img/icon-fb.svg);
+    }
+    &--tw {
+      background-image: url(../img/icon-twitter.svg);
+    }
+}
