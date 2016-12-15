@@ -1,0 +1,23 @@
+.main-header {
+  text-align: center;
+}
+
+.main-header__tagline {
+  padding-top: 75px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+  box-sizing: border-box;
+  background-image: url(../img/hero-mobile@1x.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main-header__title {
+  margin: 0;
+  font-size: 27px;
+  line-height: 30px;
+  color: #010000;
+  font-weight: bold;
+  font-family: "Оpen sans";
+}

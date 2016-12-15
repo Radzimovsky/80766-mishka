@@ -1,0 +1,87 @@
+.form {
+  padding: 30px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+.form__text {
+  margin: 0;
+  font-size: 13px;
+  line-height: 24px;
+  color: #444444;
+  font-weight: normal;
+  font-family: "Оpen sans";
+    &--fn {
+      font-size: 14px;
+    }
+}
+.form__option {
+  font-size: 17px;
+  line-height: 17px;
+  color: #63d1bb;
+  font-weight: bold;
+  font-family: "Оpen sans";
+  text-transform: uppercase;
+}
+.form__class-label {
+  font-size: 17px;
+  line-height: 18px;
+  color: #000000;
+  font-weight: bold;
+  font-family: "Оpen sans";
+}
+.form__color-label {
+  font-size: 17px;
+  line-height: 18px;
+  color: #000000;
+  font-weight: bold;
+  font-family: "Оpen sans";
+}
+.form__name-label {
+  font-size: 17px;
+  line-height: 18px;
+  color: #000000;
+  font-weight: bold;
+  font-family: "Оpen sans";
+}
+.form__name-input {
+  font-size: 17px;
+  line-height: 18px;
+  color: #444444;
+  font-weight: normal;
+  font-family: "Оpen sans";
+}
+.form__input {
+  font-size: 17px;
+  line-height: 18px;
+  color: #444444;
+  font-weight: normal;
+  font-family: "Оpen sans";
+  background-position: right;
+  background-repeat: no-repeat;
+    &--phone{
+      background-image: url(../img/icon-phone.svg);
+    }
+    &--mail{
+      background-image: url(../img/icon-mail.svg);
+    }
+}
+.form__textarea {
+  width: 100%;
+  font-size: 17px;
+  line-height: 18px;
+  color: #444444;
+  font-weight: normal;
+  font-family: "Оpen sans";
+  resize: none;
+}
+.form__btn {
+  font-size: 17px;
+  line-height: 17px;
+  color: #444444;
+  font-weight: bold;
+  font-family: "Оpen sans";
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #ffffff;
+  border: 2px solid #444444;
+}

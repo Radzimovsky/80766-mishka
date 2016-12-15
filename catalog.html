@@ -3,19 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <title>HTML Academy: Мишка-Каталог</title>
+  <link rel="stylesheet" href="css/style.css" charset="utf-8">
 </head>
 <body>
   <div class="wrapper">
     <header class="second-header">
       <div class="second-header__content">
         <div class="top-menu">
-          <img src="./img/top-menu__img.png" alt="top-menu" class="top-menu__img" width="" height="">
+          <img src="./img/logo-mobile.svg" alt="top-menu" class="top-menu__img" width="" height="">
           <button class="top-menu__btn"></button>
-          <ul class="main-menu" style="display:none">
+          <ul class="main-menu">
             <li class="main-menu__item"><a href="catalog.html" class="main-menu__link">Каталог товаров</a></li>
             <li class="main-menu__item"><a href="form.html" class="main-menu__link">Вязание на заказ</a></li>
-            <li class="main-menu__item"><a href="#" class="main-menu__link">Поиск по сайту</a></li>
-            <li class="main-menu__item"><a href="#" class="main-menu__link">Корзина: пока пуста</a></li>
+            <li class="main-menu__item"><a href="#" class="main-menu__link main-menu__link--search">Поиск по сайту</a></li>
+            <li class="main-menu__item"><a href="#" class="main-menu__link main-menu__link--bascet">Корзина: пока пуста</a></li>
           </ul>
         </div>
       </div>
@@ -27,7 +28,7 @@
         </div>
       </div>
       <div class="catalog">
-        <div class="product__content">
+        <div class="catalog__list">
           <article class="product">
             <img src="./img/hare.png" alt="hare" class="product__img" width="" height="">
             <h2 class="product__name">Зайчик-попрыгайчик</h2>
@@ -71,7 +72,7 @@
       </div>
     </footer>
   </div>
-  <div class="hidden-widow" style="display:none">
+  <div class="hidden-widow">
     <form action="" class="hidden-widow__form">
       <p class="hidden-widow__tigline">Добавить в корзину</p>
       <p class="hidden-widow__text">Выберите размер:</p>

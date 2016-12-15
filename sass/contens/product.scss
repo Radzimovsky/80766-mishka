@@ -1,0 +1,31 @@
+.product {
+  border: 1px solid #ededed;
+}
+.product__name {
+  font-size: 17px;
+  line-height: 24px;
+  color: #000000;
+  font-weight: bold;
+  font-family: "Оpen sans";
+}
+.product__description {
+  font-size: 13px;
+  line-height: 30px;
+  color: #444444;
+  font-weight: normal;
+  font-family: "Оpen sans";
+}
+.product__price {
+  font-size: 15px;
+  line-height: 24px;
+  color: #000000;
+  font-weight: bold;
+  font-family: "Оpen sans";
+}
+.product__btn {
+  width: 100%;
+  height: 20px;
+  background-image: url(../img/icon-cart.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+}

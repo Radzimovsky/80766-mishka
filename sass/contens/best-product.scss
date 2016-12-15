@@ -1,0 +1,62 @@
+.best-product {
+  padding: 35px 30px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+.best-product__tagline {
+  font-size: 25px;
+  line-height: 30px;
+  color: #000000;
+  font-weight: bold;
+  font-family: "Оpen sans";
+}
+.best-product__marker {
+  font-size: 17px;
+  line-height: 17px;
+  color: #63d1bb;
+  font-weight: bold;
+  font-family: "Оpen sans";
+  text-transform: uppercase;
+}
+.best-product__description {
+  font-size: 15px;
+  line-height: 24px;
+  color: #444444;
+  font-weight: normal;
+  font-family: "Оpen sans";
+}
+
+.best-product__characteristic {
+  font-size: 15px;
+  line-height: 20px;
+  color: #444444;
+  font-weight: normal;
+  font-family: "Оpen sans";
+  border-bottom: 1px solid #ececec;
+}
+.best-product__characteristic-answer {
+  font-size: 15px;
+  line-height: 20px;
+  color: #444444;
+  font-weight: normal;
+  font-family: "Оpen sans";
+  border-bottom: 1px solid #ececec;
+}
+.best-product__price {
+  font-size: 17px;
+  line-height: 24px;
+  color: #444444;
+  font-weight: bold;
+  font-family: "Оpen sans";
+}
+.best-product__btn {
+  padding: 18px;
+  font-size: 17px;
+  line-height: 24px;
+  color: #444444;
+  font-weight: bold;
+  font-family: "Оpen sans";
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 2px solid #444444;
+}

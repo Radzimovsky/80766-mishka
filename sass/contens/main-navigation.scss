@@ -1,0 +1,36 @@
+.main-navigation {
+  margin: 0;
+  padding: 0;
+}
+.main-navigation__list {
+  list-style-type: none;
+}
+.main-navigation__link {
+  display: flex;
+  padding: 30px;
+  padding-right: 150px;
+  box-sizing: border-box;
+  width: 100%;
+  text-decoration: none;
+  font-size: 19px;
+  line-height: 24px;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: "Оpen sans";
+  text-align: left;
+    &--light {
+      background-color: #63d1bb;
+      background-image: url(../img/icon-interior.svg);
+      background-repeat: no-repeat;
+      background-position: right;
+    }
+    &--dark {
+      background-color: #56c3b2;
+      background-image: url(../img/icon-toy.svg);
+      background-repeat: no-repeat;
+      background-position: right;
+    }
+}
+.main-menu__text {
+  width: 50%;
+}

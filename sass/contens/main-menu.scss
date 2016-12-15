@@ -1,0 +1,13 @@
+.main-menu {
+  display: none;
+}
+.main-menu__link {
+  background-position: left;
+  background-repeat: no-repeat;
+    &--search {
+      background-image: url(../img/icon-search.svg);
+    }
+    &--bascet {
+      background-image: url(../img/icon-cart.svg);
+    }
+}
