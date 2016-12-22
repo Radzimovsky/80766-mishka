@@ -1,4 +1,21 @@
 .catalog {
-  padding: 30px;
+  padding: 30px 9.37%;
   background-color: #ffffff;
+}
+
+@media (min-width: $width-tablet) {
+  .catalog {
+    padding-top: 80px;
+    padding-right: 6.5%;
+    padding-bottom: 63px;
+    padding-left: 6.5%;
+  }
+}
+@media (min-width: $width-desktop) {
+  .catalog__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+  }
 }

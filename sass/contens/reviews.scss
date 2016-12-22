@@ -1,36 +1,32 @@
 .reviews {
-  padding: 30px;
   background-color: #ffffff;
+}
+.reviews__content {
+  padding: 30px 9.37%;
 }
 .reviews__tigline {
   margin: 0;
   font-size: 25px;
   line-height: 30px;
   color: #000000;
-  font-weight: bold;
-  font-family: "Оpen sans";
+  font-family: $OpenSansBold;
 }
 .reviews__quote {
   margin: 0;
   font-size: 15px;
   line-height: 30px;
   color: #444444;
-  font-weight: normal;
-  font-family: "Оpen sans";
 }
 .reviews__author {
   font-size: 18px;
   line-height: 24px;
   color: #000000;
-  font-weight: bold;
-  font-family: "Оpen sans";
+  font-family: $OpenSansBold;
 }
 .reviews__nickname {
   font-size: 18px;
   line-height: 30px;
   color: #444444;
-  font-weight: normal;
-  font-family: "Оpen sans";
 }
 .reviews__control_btns {
     display: flex;
@@ -56,9 +52,50 @@
   font-size: 18px;
   line-height: 18px;
   color: #444444;
-  font-weight: bold;
-  font-family: "Оpen sans";
+  font-family: $OpenSansBold;
   text-transform: uppercase;
   text-decoration: none;
   border: 2px solid #444444;
+}
+@media (min-width: $width-tablet) {
+  .reviews {
+    background-image: url(../img/review@1x.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: left;
+  }
+  .reviews__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 6.5%;
+  }
+  .reviews__tigline {
+    order: 1;
+    font-size: 43px;
+    line-height: 50px;
+  }
+  .reviews__feedback {
+    order: 2;
+  }
+  .reviews__block-review {
+    order: 3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .reviews__control_btns {
+    width: 22.9%;
+  }
+  .reviews__control_btn {
+   border: 0;
+  }
+}
+@media (min-width: $width-desktop) {
+  .reviews {
+    background-position: 6.5% center;
+  }
+  .contacts__content {
+    width: 50%;
+  }
 }

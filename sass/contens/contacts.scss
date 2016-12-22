@@ -1,34 +1,106 @@
 .contacts {
-  padding: 40px 30px;
   background-color: #ffffff;
+}
+.contacts__content {
+  padding: 40px 9.37%;
+  box-sizing: border-box;
 }
 .contacts__tigline {
   margin: 0;
   font-size: 18px;
   line-height: 30px;
   color: #000000;
-  font-weight: bold;
-  font-family: "Оpen sans";
+  font-family: $OpenSansBold;
+}
+.contacts__icon-flag {
+  display: none;
 }
 .contacts__info {
+  margin: 0;
   font-size: 15px;
   line-height: 30px;
   color: #444444;
-  font-weight: normal;
-  font-family: "Оpen sans";
 }
 .contacts__info-answer {
+  margin: 0;
   font-size: 15px;
   line-height: 30px;
   color: #444444;
-  font-weight: normal;
-  font-family: "Оpen sans";
 }
 .contacts__mail {
+  position: relative;
+  padding-bottom: 5px;
   font-size: 15px;
   line-height: 30px;
   color: #444444;
-  font-weight: normal;
-  font-family: "Оpen sans";
   text-decoration: none;
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 1px;
+      background-color: #62d1ba;
+    }
+}
+@media (min-width: $width-tablet) {
+  .contacts__content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 40px 6.5%;
+  }
+  .contacts__tigline {
+    font-size: 43px;
+    line-height: 50px;
+  }
+  .contacts__icon-flag {
+    display: block;
+  }
+  .contacts__block-info {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  .contacts__info {
+    width: 12%;
+    font-size: 17px;
+  }
+  .contacts__info-answer {
+    padding-right: 7%;
+    box-sizing: border-box;
+    width: 38%;
+    font-size: 17px;
+  }
+}
+@media (min-width: $width-desktop) {
+  .contacts {
+    position: relative;
+    padding: 150px 4.3%;
+  }
+  .contacts__content {
+    position: relative;
+    padding: 0;
+    padding-left: 16.66%;
+  }
+  .contacts__tigline {
+    margin-bottom: 70px;
+  }
+  .contacts__icon-flag {
+    position: absolute;
+    left: 16.66%;
+    transform: translateX(-50%);
+  }
+  .contacts__block-info {
+    flex-wrap: wrap;
+    margin-bottom: 85px;
+  }
+  .contacts__info {
+    width: 30%;
+  }
+  .contacts__info-answer {
+    padding-right: 10%;
+    width: 70%;
+  }
 }
