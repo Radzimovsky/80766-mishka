@@ -1,40 +1,53 @@
 .making {
-  padding: 30px;
   background-color: #ffffff;
   border: 1px solid #ededed;
 }
+.making__content {
+  position: relative;
+  padding: 30px 9.37%;
+}
+.making__tagline-icon {
+  position: absolute;
+  top: 30px;
+  left: 20%;
+  transform: translateX(-50%);
+}
 .making__tagline {
   margin: 0;
+  padding-left: 30%;
   font-size: 17px;
   line-height: 24px;
   color: #000000;
-  font-weight: bold;
-  font-family: "Оpen sans";
-  background-image: url(../img/icon-video.svg);
-  background-repeat: no-repeat;
-  background-position: left;
+  font-family: $OpenSansBold;
 }
 .making__video {
-  height: 150px;
-  background-image: url(../img/video-mobile@1x.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  width: 100%;
+  height: auto;
 }
 .making__text {
+  padding: 0 15%;
+  box-sizing: border-box;
   font-size: 13px;
   line-height: 24px;
   color: #444444;
-  font-weight: normal;
-  font-family: "Оpen sans";
 }
 .making__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 71%;
+  height: 48px;
   font-size: 17px;
   line-height: 17px;
   color: #444444;
-  font-weight: bold;
-  font-family: "Оpen sans";
+  font-family: $OpenSansBold;
   text-transform: uppercase;
   text-decoration: none;
   border: 2px solid #444444;
+}
+@media (min-width: $width-tablet) {
+  .making__content {
+    padding: 30px 6.5%;
+  }
 }

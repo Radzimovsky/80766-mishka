@@ -1,15 +1,34 @@
 .name-page {
   background-color: #f1f1f1;
-  padding: 0 30px;
 }
 .name-page__tagline {
-  padding: 75px 0;
+  padding: 75px 9.37%;
+  text-align: center;
 }
 .name-page__title {
   margin: 0;
   font-size: 27px;
   line-height: 30px;
   color: #000000;
-  font-weight: bold;
-  font-family: "Оpen sans";
+  font-family: $OpenSansBold;
+}
+@media (min-width: $width-tablet) {
+  .name-page__tagline {
+    padding: 90px 6.5%;
+    padding-top: 110px;
+  }
+  .name-page__title {
+    font-size: 43px;
+    line-height: 50px;
+  }
+}
+@media (min-width: $width-desktop) {
+  .name-page__tagline {
+    padding: 105px 4.3% 110px;
+    padding-top: 110px;
+  }
+  .name-page__title {
+    font-size: 53px;
+    line-height: 57px;
+  }
 }

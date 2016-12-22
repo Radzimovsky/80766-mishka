@@ -1,16 +1,50 @@
 .main-footer {
-  padding: 25px 30px;
   background-color: #f1f1f1;
+}
+.main-footer__logo {
+  display: none;
+}
+.main-footer__content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 25px 9.37%;
+}
+.social-networks {
+  width: 100%;
 }
 .main-footer__designed {
   font-size: 19px;
   line-height: 19px;
   color: #000000;
-  font-weight: bold;
-  font-family: "Оpen sans";
-  background-image: url(../img/logo-htmlacademy.svg);
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: auto;
+  font-family: $OpenSansBold;
   text-decoration: none;
+}
+@media (min-width: $width-tablet) {
+  .main-footer {
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .main-footer__content {
+    justify-content: space-between;
+    padding: 25px 6.5%;
+  }
+  .main-footer__logo {
+    display: flex;
+    justify-content: flex-start;
+    width: 33.333333%;
+  }
+  .social-networks {
+    width: 33.333333%;
+  }
+  .main-footer__designed {
+    display: flex;
+    justify-content: flex-end;
+    width: 33.333333%;
+  }
+}
+@media (min-width: $width-desktop) {
+  .main-footer__content {
+    padding: 25px 4.3%;
+  }
 }

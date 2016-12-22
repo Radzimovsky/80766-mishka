@@ -1,13 +1,15 @@
 body {
   margin: 0;
   background-color: grey;
+  font-family: $OpenSans;
+  font-weight: normal;
 
 }
 
 .wrapper {
+  position: relative;
   margin: 0 auto;
-  width: 320px;
-
+  max-width: 1150px;
 }
 .content {
 

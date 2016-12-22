@@ -5,3 +5,11 @@
   background-position: center;
   background-size: cover;
 }
+@media (min-width: $width-desktop) {
+  .map {
+    position: absolute;
+    top: 70px;
+    right: 4.3%;
+    width: 45.7%;
+  }
+}

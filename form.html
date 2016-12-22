@@ -10,14 +10,23 @@
     <header class="second-header">
       <div class="second-header__content">
         <div class="top-menu">
-          <img src="./img/logo-mobile.svg" alt="top-menu" class="top-menu__img" width="" height="">
+          <div class="top-menu__logo">
+            <img class="top-menu__img" src="./img/logo-mobile.svg" alt="top-menu" class="top-menu__img" width="116" height="22">
+          </div>
           <button class="top-menu__btn"></button>
-          <ul class="main-menu">
-            <li class="main-menu__item"><a href="catalog.html" class="main-menu__link">Каталог товаров</a></li>
-            <li class="main-menu__item"><a href="form.html" class="main-menu__link">Вязание на заказ</a></li>
-            <li class="main-menu__item"><a href="#" class="main-menu__link main-menu__link--search">Поиск по сайту</a></li>
-            <li class="main-menu__item"><a href="#" class="main-menu__link main-menu__link--bascet">Корзина: пока пуста</a></li>
+          <ul class="menu-pages menu-pages--snd-page">
+            <li class="menu-pages__item"><a href="catalog.html" class="menu-pages__link">Каталог товаров</a></li>
+            <li class="menu-pages__item"><a href="form.html" class="menu-pages__link">Вязание на заказ</a></li>
           </ul>
+          <ul class="main-menu">
+            <li class="main-menu__item main-menu__item--search"><a href="#" class="main-menu__link main-menu__link--search">Поиск по сайту</a></li>
+            <li class="main-menu__item "><a href="#" class="main-menu__link main-menu__link--bascet">Корзина: пока пуста</a></li>
+          </ul>
+          <ul class="menu-gds">
+            <li class="menu-gds__item"><a href="#" class="menu-gds__link menu-gds__link--new-gds">Новые поступления</a></li>
+            <li class="menu-gds__item"><a href="#" class="menu-gds__link menu-gds__link--sale">Распродажа</a></li>
+          </ul>
+          <a class="top-menu__delivery top-menu__delivery--snd-page" href="#">Бесплатная доставка по России</a>
         </div>
       </div>
     </header>
@@ -71,12 +80,17 @@
     </div>
     <footer class="main-footer">
       <div class="main-footer__content">
+        <div class="main-footer__logo">
+          <img class="main-footer__img" src="./img/logo-mobile.svg" alt="logo"  width="86" height="35">
+        </div>
         <div class="social-networks">
           <a href="https://www.instagram.com/" class="social-networks__link social-networks__link--ig"></a>
           <a href="https://www.facebook.com/" class="social-networks__link social-networks__link--fb"></a>
           <a href="https://twitter.com/" class="social-networks__link social-networks__link--tw"></a>
         </div>
-        <a href="https://htmlacademy.ru/" class="main-footer__designed">Разработано</a>
+        <a href="https://htmlacademy.ru/" class="main-footer__designed">Разработано
+          <img src="./img/logo-htmlacademy.svg" alt="logo-htmlacademy" width="27" height="35">
+        </a>
       </div>
     </footer>
   </div>

@@ -2,41 +2,40 @@
   background-color: #ffffff;
 }
 .about-us__content {
-  padding: 35px 30px;
+  padding: 35px 9.37%;
+  box-sizing: border-box;
 }
 .about-us__tagline {
   margin: 0;
   font-size: 25px;
   line-height: 30px;
   color: #000000;
-  font-weight: bold;
-  font-family: "Оpen sans";
+  font-family: $OpenSansBold;
 }
 .about-us__text {
-  padding-top: 90px;
   font-size: 17px;
   line-height: 20px;
   color: #000000;
-  font-weight: bold;
-  font-family: "Оpen sans";
-  background-repeat: no-repeat;
-  background-position: top left;
-    &--flower {
-      background-image: url(../img/icon-feature-1.svg);
-    }
-    &--money {
-      background-image: url(../img/icon-feature-2.svg);
-    }
-    &--heart {
-      background-image: url(../img/icon-feature-3.svg);
-    }
-    &--clew {
-      background-image: url(../img/icon-feature-4.svg);
-    }
-    &--rocket {
-      background-image: url(../img/icon-feature-5.svg);
-    }
-    &--packaging {
-      background-image: url(../img/icon-feature-6.svg);
-    }
+  font-family: $OpenSansBold;
+}
+@media (min-width: $width-tablet) {
+  .about-us__content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 35px 6.5%;
+    box-sizing: border-box;
+  }
+  .about-us__tagline {
+    width: 100%;
+    font-size: 43px;
+    line-height: 50px;
+  }
+  .about-us__block {
+    width: 50%;
+  }
+}
+@media (min-width: $width-desktop) {
+  .about-us__content {
+    padding: 35px 19.56%;
+  }
 }
